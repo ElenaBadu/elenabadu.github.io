@@ -1,0 +1,46 @@
+html, body{
+    height: 100%;
+}
+.imgAsset{
+    float: left;
+  }
+.img, .altText{
+     height: 100px;
+    width: 100px;
+}
+#IE{
+    float: right;
+}
+ .altText{
+     display: none;
+     padding-top: 30px;
+     padding-left: 30px;
+ }
+ .imgAsset.error .img{
+     display: none;
+ }
+ .imgAsset.error .altText{
+     display: block;
+ }
+
+ #green{
+     color: green;
+ }
+ .red{
+     color: red;
+ }
+ #yellow{
+     color: yellow;
+ }
+ #firefox .altText{
+     color: orange;
+ }
+ #opera .altText{
+    color: red;
+ }
+ #safari .altText{
+     color: grey;
+ }
+ #IE .altText{
+     color:blue;
+ }
